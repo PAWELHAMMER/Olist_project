@@ -1,2 +1,8 @@
-# Olist_project
-This is the repository containing SQL code used by me to first create and then analyze the data from Olist, the largest department store in Brazilian marketplaces.
+# Portfolio
+Hello! My name is Paweł. I am a recent Genetics gradute. During my studies and internships, I fell in love with the concept of working with data. I started with analyzing only biological data, but now I aspire to expand my work also to the business field.
+
+This repository performs the role of a portfolio, in which I will showcase my skills as a data analyst. I will add new files continuously.
+
+If You have any comments or recommendations, please do not hesitate to let me know.
+Thanks for reading this and I hope You will appreciate my work!
+
