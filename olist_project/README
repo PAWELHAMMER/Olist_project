@@ -1,0 +1,6 @@
+This is Olist_project: an analysis of data provided by Olist, the largest department store on Brazilian marketplaces.
+I set up the tables containing the data I used during the analysis, and then I used SQL to view some interesting trends and facts.
+
+Note: I used only some of the provided data, as it was sufficient for the analysis.
+
+Link to the original datasets: https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce?select=olist_order_payments_dataset.csv
