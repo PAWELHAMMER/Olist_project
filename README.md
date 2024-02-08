@@ -8,7 +8,6 @@ Here's how it's structured:
 
 And here's what the tables look like:
 # olist_products
-![](products_table.png)
 
 # olist_order_items
 ![](orders_items_table.png)
