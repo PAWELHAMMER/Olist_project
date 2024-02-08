@@ -10,13 +10,10 @@ And here's what the tables look like:
 # olist_products
 
 # olist_order_items
-![](orders_items_table.png)
 
 # olist_orders
-![](payments_table.png)
 
 # olist_order_payments
-![](payments_table.png)
 
 - secondly, I asked certain questions, which I later answered using SQL code:
 
