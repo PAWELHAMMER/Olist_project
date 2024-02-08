@@ -8,12 +8,16 @@ Here's how it's structured:
 
 And here's what the tables look like:
 # olist_products
+![](products_table.png)
 
 # olist_order_items
+![](orders_items_table.png)
 
 # olist_orders
+![](orders_table.png)
 
 # olist_order_payments
+![](products_table.png)
 
 - secondly, I asked certain questions, which I later answered using SQL code:
 
