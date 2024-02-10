@@ -17,7 +17,6 @@ And here's what the tables look like:
 ![](orders_table.png)
 
 # olist_order_payments
-![](payments_table.png)
 
 - secondly, I asked certain questions, which I later answered using SQL code:
 
