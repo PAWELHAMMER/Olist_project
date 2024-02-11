@@ -23,8 +23,8 @@ join olist_orders ord
 join olist_order_payments op
 	on oi.order_id = op.order_id
 
--- 2)What was the preferred method of payment in Olist?
-/* To check that, we must first change some data in the table:
+/* 2)What was the preferred method of payment in Olist?
+(!) To check that, we must first change some data in the table:
 the site is from Brasil, so some of the data is in Portuguese */
 
 update olist_order_payments
