@@ -122,7 +122,7 @@ where order_approved_at =
 
 /* 9) List the orders that have been delivered to the customers. 
 Include the time that passed between between purchasing and delivering product to the customer.
-Present the data in a way that shows the list in a consecutive manner and  */
+Present the data in a way that shows the list in a consecutive manner. */
 
 with time_interval as (
 				select (order_delivered_customer_date - order_purchase) as purchase_to_delivery, 
