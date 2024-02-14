@@ -56,6 +56,10 @@ payment_value NUMERIC(5,2)
 -- Insert Data into tables
 -- olist_products table
 
+ /* Note:This data is only part of a much larger set used to test the code. 
+ Here, I used INSERT INTO to better show what type of data is in each column.
+ A link to the full databases can be found in the project description. */
+ 
 insert into olist_products (product_id, product_description_lenght, product_height_cm,product_length_cm,product_name_lenght,product_photos_qty,product_weight_g,product_width_cm )
 values
 ('1e9e8ef04dbcff4541ed26657ea517e5',	'287',	'10',	'16',	'40',	'1',	'10',	'14'),
@@ -191,6 +195,4 @@ values
 ('dd78f560c270f1909639c11b925620ea',	'credit_card',	'139.22'),
 ('91b2a010e1e45e6ba3d133fa997597be',	'credit_card',	'290.16')
 
-/* Note:This data is only part of a much larger set used to test the code.
- A link to the full databases can be found in the project description. */
-
+-- END
