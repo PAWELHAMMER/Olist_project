@@ -40,12 +40,6 @@ from olist_order_payments
 /* 3) What was the expected interval between purchasing an item and receiving it? 
 List only the orders that haven't reached the customer. */
 
-select ord.product_id, ord.price, pr.product_photos_qty
-from olist_order_items ord
-join olist_products pr
-	on ord.product_id = pr.product_id
-order by ord.price desc
-limit 10
 select order_id, 
 (order_estimated_delivery_date - order_purchase) as expected_time,
 order_status
