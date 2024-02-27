@@ -20,7 +20,7 @@ And here's what the tables look like:
 ![](images/payments_table.png)
 
 - secondly, I asked certain questions, which I later answered using SQL code. With these questions, I tried to emulate the real work environment of a data analyst working for Olist.
-In the code file, I enter only a fraction of the data into the tables, just to showcase their structure without entering an enormous amount of strings and numbers in them. Of course, if you want to use the entire dataset, here's a link to CSV files:
+In the code file, I entered only a fraction of the data into the tables, just to showcase their structure without entering an enormous amount of strings and numbers in them. Of course, if you want to use the entire dataset, here's a link to CSV files:
 https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce
 
 If You have any comments or recommendations, please do not hesitate to let me know.
