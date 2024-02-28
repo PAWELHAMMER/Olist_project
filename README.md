@@ -1,5 +1,5 @@
 # Olist_project
-This repository contains my personal project, which focuses on analyzing datasets generously provided by Olist, the largest department store in Brazilian marketplaces. I grew a personal interest in it, as performing analysis on real commercial data seemed like a great way to work with commercial data.
+This repository contains my personal project, which focuses on analyzing datasets generously provided by Olist, the largest department store in Brazilian marketplaces. I grew a personal interest in it, as performing analysis on real commercial data seemed like a great way to enhance my skills in working with data from varied sources.
 
 Here's how the database is structured:
 - firstly, I created the set of tables using PostgreSQL based on the schema (visualization made in PowerBI):
