@@ -146,17 +146,17 @@ select sub. shipping_limit_date,
 sub.short_and_low from
 (select
 oi.shipping_limit_date::date,
-	sum(case when op.product_length_cm < 50 
-		and op.product_height_cm > 15 then 1 else 0 end) 
+	count(case when op.product_length_cm < 50 
+		and op.product_height_cm > 15 then 1 else NULL end) 
 		as short_and_high,
-	sum(case when op.product_length_cm < 50 
-		and op.product_height_cm <= 15 then 1 else 0 end)
+	count(case when op.product_length_cm < 50 
+		and op.product_height_cm <= 15 then 1 else NULL end)
 		as short_and_low,
-	sum(case when op.product_length_cm >= 50 
-		and op.product_height_cm > 15 then 1 else 0 end)
+	count(case when op.product_length_cm >= 50 
+		and op.product_height_cm > 15 then 1 else NULL end)
 		as long_and_high,
-	sum(case when op.product_length_cm >= 50 
-		and op.product_height_cm <= 15 then 1 else 0 end)
+	count(case when op.product_length_cm >= 50 
+		and op.product_height_cm <= 15 then 1 else NULL end)
 		as long_and_low
 from olist_products op
 join olist_order_items oi
