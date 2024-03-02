@@ -1,8 +1,23 @@
 -- Copy csv file into the database:
 
-COPY crashes
+COPY olist_order_items
 FROM
-'C:\Users\Jaime\Desktop\git-repo\chicago_traffic_crashes\csv\chicago_traffic_crashes_part_1.csv'
+'C:\Users\templ\Desktop\Projekt SQL\OlistProject\olist_order_items_dataset.csv'
+DELIMITER ',' CSV HEADER;
+
+COPY olist_order_items
+FROM
+'C:\Users\templ\Desktop\Projekt SQL\OlistProject\olist_order_payments_dataset.csv'
+DELIMITER ',' CSV HEADER;
+
+COPY olist_orders
+FROM
+'C:\Users\templ\Desktop\Projekt SQL\OlistProject\olist_orders_dataset.csv'
+DELIMITER ',' CSV HEADER;
+
+COPY olist_products
+FROM
+'C:\Users\templ\Desktop\Projekt SQL\OlistProject\olist_products_dataset.csv'
 DELIMITER ',' CSV HEADER;
 
 -- There are some spelling mistake in olist_products table, let's fix it:
