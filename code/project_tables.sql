@@ -195,4 +195,26 @@ values
 ('dd78f560c270f1909639c11b925620ea',	'credit_card',	'139.22'),
 ('91b2a010e1e45e6ba3d133fa997597be',	'credit_card',	'290.16')
 
+-- For full data opy csv file into the database:
+
+COPY olist_order_items
+FROM
+'C:\Users\templ\Desktop\Projekt SQL\OlistProject\olist_order_items_dataset.csv'
+DELIMITER ',' CSV HEADER;
+
+COPY olist_order_items
+FROM
+'C:\Users\templ\Desktop\Projekt SQL\OlistProject\olist_order_payments_dataset.csv'
+DELIMITER ',' CSV HEADER;
+
+COPY olist_orders
+FROM
+'C:\Users\templ\Desktop\Projekt SQL\OlistProject\olist_orders_dataset.csv'
+DELIMITER ',' CSV HEADER;
+
+COPY olist_products
+FROM
+'C:\Users\templ\Desktop\Projekt SQL\OlistProject\olist_products_dataset.csv'
+DELIMITER ',' CSV HEADER;
+
 -- END
