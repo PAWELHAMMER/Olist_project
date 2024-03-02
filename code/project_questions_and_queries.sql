@@ -1,3 +1,10 @@
+-- Copy csv file into the database:
+
+COPY crashes
+FROM
+'C:\Users\Jaime\Desktop\git-repo\chicago_traffic_crashes\csv\chicago_traffic_crashes_part_1.csv'
+DELIMITER ',' CSV HEADER;
+
 -- There are some spelling mistake in olist_products table, let's fix it:
 
 alter table olist_products 
